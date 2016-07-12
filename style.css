@@ -11,7 +11,33 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
-.header {
-	background-color: red;
 
+.search-toggle {
+    background-color: #4e4e4e;
+    cursor: pointer;
+    float: right;
+    height: 48px;
+    margin-right: 38px;
+    text-align: center;
+    width: 48px;
+}
+.search-toggle:hover, .search-toggle.active {
+    background-color: gray;
+}
+.href:hover, .href.active{
+    color: black;
+}
+
+.search-box {
+    background-color: gray;
+    padding: 12px;
+}
+#secondary {
+    background-color: #4e4e4e;
+}
+.site-header {
+    background-color: #4e4e4e;
+}
+::selection {
+    background: #4e4e4e;
 }
