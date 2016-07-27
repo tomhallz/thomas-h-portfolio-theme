@@ -24,7 +24,7 @@
 <body <?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
 
-<nav class="site-navigation">
+<nav class="site-navigation navbar-fixed-top">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container-fluid">
 		<div class="row">

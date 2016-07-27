@@ -126,3 +126,6 @@ img.jumbotron-img {
     padding-right: 0px;
     padding-left: 0px;
 }
+.col-sm-12 {
+	padding-top: 35px;
+}
