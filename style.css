@@ -1,43 +1,113 @@
 /*
  Theme Name:   Thomas' Portfolio Theme
- Theme URI:    http://example.com/twenty-fifteen-child/
- Description:  Twenty Fifteen Child Theme
- Author:       John Doe
+ Theme URI:    http://example.com/_tk-master-child/
+ Description:  _tk-master Child Theme created for my porfolio website that im waking apart of my devshop internship.
+ Author:       Thomas Hallinger
  Author URI:   http://example.com
- Template:     twentyfourteen
+ Template:     _tk-master
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  twenty-fifteen-child
+ Text Domain:  _tk-master
 */
 
-.search-toggle {
-    background-color: #4e4e4e;
-    cursor: pointer;
-    float: right;
-    height: 48px;
-    margin-right: 38px;
-    text-align: center;
-    width: 48px;
-}
-.search-toggle:hover, .search-toggle.active {
-    background-color: gray;
-}
-.href:hover, .href.active{
-    color: black;
-}
+/*
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #607D8B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #727272; }
+.divider-color         { border-color: #B6B6B6; }
+*/
 
-.search-box {
-    background-color: gray;
-    padding: 12px;
+@import 'https://fonts.googleapis.com/css?family=Cabin|Lobster';
+
+/*General*/
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: 'Cabin', sans-serif;*/
+	font-family: 'Lobster', cursive;
+
 }
-#secondary {
-    background-color: #4e4e4e;
+body {
+    color: #3E3B8C;
+    word-wrap: break-word;
+	/*font-family: 'Lobster', cursive;*/
+	font-family: 'Cabin', sans-serif;
+    line-height: 1.7;
+    font-size: 14px;
 }
-.site-header {
-    background-color: #4e4e4e;
+body.custom-background {
+    background-color: #FFFFFF;
 }
-::selection {
-    background: #4e4e4e;
+li {
+	color: white;
+	background-color: #303F9F;
+}
+li:hover, li.active {
+	color: white;
+	border-color: white;
+	background-color: #303F9F;
+	border-radius: 25px;
+}
+a {
+	color: white;
+}
+a:hover, a.active {
+	color: #C5CAE9;
+	text-decoration: none;
+}
+/*Nav Bar*/
+.navbar-default {
+	background-color: #303F9F;
+	border-color: #303F9F;
+	display: block;
+}
+.navbar-brand {
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+}
+nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #C5CAE9;
+    background-color: #303F9F;
+}
+/*Jumbotron*/
+.jumbotron {
+	background-color: #607D8B;
+	color: #727272;
+	padding-top: 0px;
+	height: 100%;
+}
+div.jumbotron.jumbotron-fluid{
+	background-image: url("http://wallpaperil.com/wp-content/uploads/ktz/iphone-ios-7-wallpaper-tumblr-iphone-31d6kv4dikdne6qk1quqkq.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+img.jumbotron-img {
+	width: 1635px;
+	height: 558px;
+	border-radius: 6px;
+	filter: grayscale(100%);
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.jumbotron-text {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.btn-primary {
+	background-color: #FBD5FE;
+	border-color: #FBD5FE;
+	color: white;
+
+}
+.btn-primary:hover {
+	background-color: #C46B69;
+	border-color: #C46B69;
+	color: white;
 }
