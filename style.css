@@ -11,13 +11,12 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  _tk-master
 */
-
 /*
 .dark-primary-color    { background: #303F9F; }
 .default-primary-color { background: #3F51B5; }
 .light-primary-color   { background: #C5CAE9; }
 .text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #607D8B; }
+.accent-color          { background: #3F51B5; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
@@ -41,22 +40,28 @@ body {
 body.custom-background {
     background-color: #FFFFFF;
 }
+article {
+    padding-top: 25px;
+}
 li {
-	color: white;
+	color: #FFFFFF;
 	background-color: #303F9F;
 }
 ul:hover, ul.active {
-	color: white;
-	border-color: white;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
 	background-color: #303F9F;
 	border-radius: 25px;
 }
 a {
-	color: #607D8B
+	color: #3F51B5;
 }
 a:hover, a.active {
 	color: #C5CAE9;
 	text-decoration: none;
+}
+img {
+    padding: 5px;
 }
 /*Nav Bar*/
 .navbar-default {
@@ -68,7 +73,7 @@ a:hover, a.active {
 .navbar-default .navbar-brand {
 	font-family: 'Lobster', cursive;
 	font-size: 24px;
-	color: white;
+	color: #FFFFFF;
 }
 .navbar-brand:focus, .navbar-brand:hover {
     color: #C5CAE9;
@@ -91,10 +96,10 @@ nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .nav
 }
 .navbar-nav {
     margin: 0;
-    color: white;
+    color: #FFFFFF;
 }
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #FFFFFF;
 }
 /*DropDwown*/
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
@@ -116,14 +121,14 @@ nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .nav
 }
 /*Side Bar*/
 ul:hover, ul.active {
-    color: white;
-    border-color: white;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
     background-color: transparent;
     border-radius: 25px;
 }
 /*Jumbotron*/
 .jumbotron-fluid, body.jumbotron-fluid {
-	background-color: #607D8B;
+	background-color: #3F51B5;
 	color: #727272;
 	padding-top: 0px;
 	height: 100%;
@@ -132,10 +137,10 @@ div.jumbotron.jumbotron-fluid, body.jumbotron.jumbotron-fluid {
 	background-image: url("http://wallpaperil.com/wp-content/uploads/ktz/iphone-ios-7-wallpaper-tumblr-iphone-31d6kv4dikdne6qk1quqkq.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #607D8B;
+	background-color: #3F51B5;
 	color: #FFFFFF;
 	padding-top: 0px;
-	height: 100%;
+	height: 700px;
 }
 img.jumbotron-img {
 	width: 1635px;
@@ -153,10 +158,9 @@ img.jumbotron-img {
 	padding-right: 25px;
 }
 .btn-primary {
-	background-color: #3F51B5;
-	border-color: #3F51B5;
-	color: white;
-
+	background-color: #303F9F;
+	border-color: #303F9F;
+	color: #FFFFFF;
 }
 .btn-primary:hover {
 	background-color: #303F9F;
@@ -179,7 +183,7 @@ img.jumbotron-img {
     padding: 0px;
 }
 .col-sm-12 {
-	padding-top: 35px;
+	padding-top: 0px;
 }
 .contactme ul li {
     padding: 10px;
@@ -188,23 +192,19 @@ img.jumbotron-img {
 }
 /*Blog Stuff*/
 a.nav:hover, a.nav.active {
-    color: white;
-    border-color: white;
+    color: #C5CAE9;
+    border-color: #FFFFFF;
     background-color: transparent;
     border-radius: 25px;
 }
 a.nav {
-	color: white;
-    border-color: white;
+	color: #FFFFFF;
+    border-color: #FFFFFF;
     background-color: transparent;
     border-radius: 25px;
-}
-a.nav {
-    color: white;
-     background-color: white; 
 }
 li {
-    color: white;
+    color: #FFFFFF;
     background-color: transparent;
 }
 .nav>li>a:focus, .nav>li>a:hover {
@@ -214,10 +214,11 @@ li {
 div.col-md-6 {
 	padding: 25px;
 }
+
 /*Search Bar*/
 .form-control {
-    border-color: #607D8B;
-    color: #607D8B;
+    border-color: #3F51B5;
+    color: #3F51B5;
 }
 .form-control:focus {
     border-color: #C5CAE9;
@@ -227,8 +228,27 @@ div.col-md-6 {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(197, 202, 233,.6);
 }
 input.search-field.form-control {
-    color: #607D8B;
+    color: #3F51B5;
 }
 input.search-field.form-control:focus {
     color: #C5CAE9;
+}
+.pager .next>a {
+    background-color: #303F9F;
+    border-color: #303F9F;
+    color: #FFFFFF;
+}
+.pager li>a:focus, .pager li>a:hover {
+    background-color: #303F9F;
+    border-color: #303F9F;
+    color: #C5CAE9;
+}
+.pager .previous>a {
+    background-color: #303F9F;
+    border-color: #303F9F;
+    color: #FFFFFF;
+}
+/*Contact*/
+i.fa.fa-linkedin, i.fa.fa-github, span.glyphicon.glyphicon-envelope {
+    padding: 5px;
 }
