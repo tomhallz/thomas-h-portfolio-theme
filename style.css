@@ -249,6 +249,8 @@ input.search-field.form-control:focus {
     color: #FFFFFF;
 }
 /*Contact*/
-i.fa.fa-linkedin, i.fa.fa-github, span.glyphicon.glyphicon-envelope {
+i#contact-bottom.fa.fa-linkedin, i#contact-bottom.fa.fa-github, span#contact-bottom.glyphicon.glyphicon-envelope {
     padding: 5px;
+}
+i.fa.fa-linkedin, i.fa.fa-github, span.glyphicon.glyphicon-envelope {
 }
