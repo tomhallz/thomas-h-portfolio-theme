@@ -16,7 +16,7 @@
 .default-primary-color { background: #3F51B5; }
 .light-primary-color   { background: #C5CAE9; }
 .text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #3F51B5; }
+.accent-color          { background: #536DFE; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
@@ -115,6 +115,11 @@ nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .nav
 	color: #C5CAE9;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #C5CAE9;
+    text-decoration: none;
+    background-color: #303F9F;
+}
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
     color: #C5CAE9;
     text-decoration: none;
     background-color: #303F9F;
@@ -252,5 +257,28 @@ input.search-field.form-control:focus {
 i#contact-bottom.fa.fa-linkedin, i#contact-bottom.fa.fa-github, span#contact-bottom.glyphicon.glyphicon-envelope {
     padding: 5px;
 }
-i.fa.fa-linkedin, i.fa.fa-github, span.glyphicon.glyphicon-envelope {
+a.fa.fa-linkedin, a.fa.fa-github, a.glyphicon.glyphicon-envelope {
+    padding: 0px;
+    float: left;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 15px;
+    background-color: #303F9F;
+    border-color: #303F9F;
+    color: #FFFFFF;
+}
+input.wpcf7-form-control.wpcf7-submit:focus, input.wpcf7-form-control.wpcf7-submit:hover {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 15px;
+    background-color: #303F9F;
+    border-color: #303F9F;
+    color: #C5CAE9;
+}
+/*Music*/
+iframe {
+    display: inline-block;
+    text-align: center;
 }
